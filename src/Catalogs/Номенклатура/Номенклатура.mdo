@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b746329-5c89-4505-be8e-3edca585cbe9">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b746329-5c89-4505-be8e-3edca585cbe9">
   <producedTypes>
     <objectType typeId="4897bfc3-1a70-4c02-9742-1785a09c3c3d" valueTypeId="3ad2b66e-1b55-468e-96ba-43d8abf5c346"/>
     <refType typeId="89b6b314-dfb5-4cd6-8bb2-da4392fe6414" valueTypeId="616cacd9-34a1-4765-a97b-9482e1783a7c"/>
@@ -31,6 +31,21 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c0591a53-26cd-406a-8bbb-431d0e8879d0">
+    <name>НеиспользуемыйТовар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неиспользуемый товар</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="76ef0369-738e-4796-8c35-8cd012d6112b">
     <name>ФормаЭлемента</name>
     <synonym>
